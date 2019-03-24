@@ -1,0 +1,37 @@
+header p {
+  margin: auto;
+  padding: auto;
+  font-size: 50px;
+  color: blue;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  text-align: center; }
+
+.cmd {
+  border-style: solid;
+  border-color: #f34949;
+  border-radius: 10px;
+  text-align: center;
+  color: #866f45;
+  font-size: 25px; }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30%;
+  font-size: 30px;
+  margin: auto;
+  width: 85%;
+  border-right-style: solid;
+  border-left-style: solid;
+  text-align: center; }
+  .navbar a img {
+    padding: 2px;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px; }
+
+/*# sourceMappingURL=style.css.map */

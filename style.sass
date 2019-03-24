@@ -1,0 +1,48 @@
+$font-size-header: 50px
+$text-color-header: blue
+$primary-border: #f34949
+=border-radius($radius)
+	border-radius: $radius
+	text-align: center
+	color: #866f45
+	font-size: 25px
+
+header
+	p
+		margin: auto
+		padding: auto
+		font-size: $font-size-header
+		color: $text-color-header
+		border-bottom-style: solid
+		border-bottom-color: grey
+		text-align: center
+
+.cmd
+	border-style: solid
+	border-color: $primary-border
+	+border-radius(10px)
+
+
+	
+.navbar
+	display: flex
+	flex-direction: row
+	justify-content: space-around
+	margin: 30%
+	font-size: 30px
+	margin: auto
+	width: 85%
+	border-right-style: solid
+	border-left-style: solid
+	text-align: center
+
+
+	a
+		img
+			padding: 2px
+			margin: 2px
+			width: 30px
+			height: 30px
+			position: relative
+			top: 10px
+			
